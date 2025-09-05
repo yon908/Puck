@@ -1,4 +1,20 @@
 body
 {
-    background-color: chocolate;
+    background-color: rgb(224, 224, 179);
+}
+
+html, body
+{
+	margin: 0;
+    padding: 0;
+}
+
+
+
+header
+{
+    text-align: center;
+    background-color: rgb(141, 0, 141);
+    color: pink;
+    padding: 20px;
 }
