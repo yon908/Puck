@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 body
 {
     background-color: rgb(224, 224, 179);
@@ -17,4 +19,22 @@ header
     background-color: rgb(141, 0, 141);
     color: pink;
     padding: 20px;
+}
+
+header img
+{
+    width: 300px;
+    height: 300px;
+    border: 20px solidrgba(0, 0, 0, 0.507);
+    border-radius: 50%;
+}
+
+header h1
+{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 10px 0 20px 0;
+    font-size: 50px;
 }
