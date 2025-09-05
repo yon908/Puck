@@ -3,6 +3,7 @@
 body
 {
     background-color: rgb(224, 224, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, body
@@ -11,7 +12,40 @@ html, body
     padding: 0;
 }
 
+p, ol, ul
+{
+    font-size: 20px;
+    line-height: 30px;
+}
 
+ul, ol
+{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a, a:visited
+{
+    color: blue;
+}
+
+a:hover
+{
+    color: rgb(138, 117, 255)
+}
+
+a:active
+{
+    color: red;
+}
+
+p.caption
+{
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+    font-style: oblique;
+    margin: 0;
+}
 
 header
 {
@@ -29,7 +63,7 @@ header img
     border-radius: 50%;
 }
 
-header h1
+h1
 {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -37,4 +71,25 @@ header h1
     font-variation-settings: "wdth" 100;
     margin: 10px 0 20px 0;
     font-size: 50px;
+}
+
+h2
+{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+main
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+main img
+{
+    max-height: 500px;
 }
