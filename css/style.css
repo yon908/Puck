@@ -57,8 +57,8 @@ header
 
 header img
 {
-    width: 300px;
-    height: 300px;
+    max-width: 200px;
+    height: 200px;
     border: 20px solidrgba(0, 0, 0, 0.507);
     border-radius: 50%;
 }
@@ -83,14 +83,30 @@ h2
     font-size: 30px;
 }
 
+@media (max-width: 600px)
+{
+    h2
+    {
+        font-size: 20px;
+    }
+
+    p, ol, ul
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
 main
 {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 main img
 {
+    max-width: 100%;
     max-height: 500px;
 }
 
@@ -104,11 +120,24 @@ footer
 
 footer .content
 {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 footer a:hover
 {
     color:lavenderblush;
+}
+
+@media (max-width: 600px)
+{
+    footer p
+    {
+        font-size: 16px;
+    }
+
+    footer
+    {
+        padding: 10px;
+    }
 }
